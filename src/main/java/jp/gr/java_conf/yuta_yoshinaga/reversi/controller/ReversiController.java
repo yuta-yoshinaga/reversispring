@@ -1,3 +1,20 @@
+////////////////////////////////////////////////////////////////////////////////
+///	@file			ReversiController.java
+///	@brief			リバーシコントローラークラス実装ファイル
+///	@author			Yuta Yoshinaga
+///	@date			2020.02.22
+///	$Version:		$
+///	$Revision:		$
+///
+/// (c) 2020 Yuta Yoshinaga.
+///
+/// - 本ソフトウェアの一部又は全てを無断で複写複製（コピー）することは、
+///   著作権侵害にあたりますので、これを禁止します。
+/// - 本製品の使用に起因する侵害または特許権その他権利の侵害に関しては
+///   当方は一切その責任を負いません。
+///
+////////////////////////////////////////////////////////////////////////////////
+
 package jp.gr.java_conf.yuta_yoshinaga.reversi.controller;
 
 import javax.servlet.http.HttpServletRequest;
@@ -17,12 +34,26 @@ import jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiSetting;
 import jp.gr.java_conf.yuta_yoshinaga.reversi.service.ReversiService;
 import net.arnx.jsonic.JSON;
 
+////////////////////////////////////////////////////////////////////////////////
+///	@class		ReversiController
+///	@brief		リバーシコントローラークラス
+///
+////////////////////////////////////////////////////////////////////////////////
 @RestController
 public class ReversiController implements ReversiPlayInterface {
 
 	@Autowired
-	ReversiService service;
+	ReversiService service;//!< リバーシサービスクラス
 
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			リバーシ設定反映
+	///	@fn				ResJson setSetting(HttpServletRequest request)
+	///	@param[in]		HttpServletRequest request
+	///	@return			ResJson
+	///	@author			Yuta Yoshinaga
+	///	@date			2020.02.22
+	///
+	////////////////////////////////////////////////////////////////////////////////
 	@PostMapping("/set-setting")
 	public ResJson setSetting(HttpServletRequest request) {
 		// ユーザー全件取得
@@ -35,6 +66,15 @@ public class ReversiController implements ReversiPlayInterface {
 		return resJson;
 	}
 
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			リバーシリセット
+	///	@fn				ResJson reset(HttpServletRequest request)
+	///	@param[in]		HttpServletRequest request
+	///	@return			ResJson
+	///	@author			Yuta Yoshinaga
+	///	@date			2020.02.22
+	///
+	////////////////////////////////////////////////////////////////////////////////
 	@PostMapping("/reset")
 	public ResJson reset(HttpServletRequest request) {
 		ReversiPlay rvPlay = getRvPlay(request);
@@ -44,6 +84,15 @@ public class ReversiController implements ReversiPlayInterface {
 		return resJson;
 	}
 
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			リバーシプレイ
+	///	@fn				ResJson reversiPlay(HttpServletRequest request)
+	///	@param[in]		HttpServletRequest request
+	///	@return			ResJson
+	///	@author			Yuta Yoshinaga
+	///	@date			2020.02.22
+	///
+	////////////////////////////////////////////////////////////////////////////////
 	@PostMapping("/reversi-play")
 	public ResJson reversiPlay(HttpServletRequest request) {
 		String y = request.getParameter("y");
@@ -55,6 +104,15 @@ public class ReversiController implements ReversiPlayInterface {
 		return resJson;
 	}
 
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			リバーシプレイインスタンス取得
+	///	@fn				ReversiPlay getRvPlay(HttpServletRequest request)
+	///	@param[in]		HttpServletRequest request
+	///	@return			ReversiPlay
+	///	@author			Yuta Yoshinaga
+	///	@date			2020.02.22
+	///
+	////////////////////////////////////////////////////////////////////////////////
 	private ReversiPlay getRvPlay(HttpServletRequest request) {
 		HttpSession session = request.getSession(true);
 		ReversiPlay rvPlay = null;
@@ -75,6 +133,16 @@ public class ReversiController implements ReversiPlayInterface {
 		return rvPlay;
 	}
 
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			リバーシプレイインスタンスセッション保存
+	///	@fn				void setRvPlay(HttpServletRequest request, ReversiPlay rvPlay)
+	///	@param[in]		HttpServletRequest request
+	///	@param[in]		ReversiPlay rvPlay
+	///	@return			ありません
+	///	@author			Yuta Yoshinaga
+	///	@date			2020.02.22
+	///
+	////////////////////////////////////////////////////////////////////////////////
 	private void setRvPlay(HttpServletRequest request, ReversiPlay rvPlay) {
 		HttpSession session = request.getSession(true);
 		session.setAttribute("rvPlay", rvPlay);
