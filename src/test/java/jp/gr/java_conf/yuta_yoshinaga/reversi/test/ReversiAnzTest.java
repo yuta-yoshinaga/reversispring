@@ -28,14 +28,14 @@ import jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiAnz;
 ///	@brief		リバーシ解析テストクラス
 ///
 ////////////////////////////////////////////////////////////////////////////////
-class ReversiAnzTest extends ReversiAnz {
+class ReversiAnzTest extends ReversiAnz
+{
 
 	@Test
 	void testGetMin() {
 		int tgt = this.getMin();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -44,8 +44,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setMin(1);
 		int tgt = this.getMin();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -53,8 +52,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetMax() {
 		int tgt = this.getMax();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -63,8 +61,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setMax(1);
 		int tgt = this.getMax();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -72,8 +69,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetAvg() {
 		double tgt = this.getAvg();
 		boolean flag = false;
-		if (tgt == 0.0)
-			flag = true;
+		if(tgt == 0.0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -82,8 +78,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setAvg(1.1);
 		double tgt = this.getAvg();
 		boolean flag = false;
-		if (tgt == 1.1)
-			flag = true;
+		if(tgt == 1.1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -91,8 +86,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetPointCnt() {
 		int tgt = this.getPointCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -101,8 +95,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setPointCnt(1);
 		int tgt = this.getPointCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -110,8 +103,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetEdgeCnt() {
 		int tgt = this.getEdgeCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -120,8 +112,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setEdgeCnt(1);
 		int tgt = this.getEdgeCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -129,8 +120,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetEdgeSideOneCnt() {
 		int tgt = this.getEdgeSideOneCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -139,8 +129,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setEdgeSideOneCnt(1);
 		int tgt = this.getEdgeSideOneCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -148,8 +137,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetEdgeSideTwoCnt() {
 		int tgt = this.getEdgeSideTwoCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -158,8 +146,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setEdgeSideTwoCnt(1);
 		int tgt = this.getEdgeSideTwoCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -167,8 +154,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetEdgeSideThreeCnt() {
 		int tgt = this.getEdgeSideThreeCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -177,8 +163,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setEdgeSideThreeCnt(1);
 		int tgt = this.getEdgeSideThreeCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -186,8 +171,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetEdgeSideOtherCnt() {
 		int tgt = this.getEdgeSideOtherCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -196,8 +180,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setEdgeSideOtherCnt(1);
 		int tgt = this.getEdgeSideOtherCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -205,8 +188,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnMin() {
 		int tgt = this.getOwnMin();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -215,8 +197,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnMin(1);
 		int tgt = this.getOwnMin();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -224,8 +205,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnMax() {
 		int tgt = this.getOwnMax();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -234,8 +214,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnMax(1);
 		int tgt = this.getOwnMax();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -243,8 +222,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnAvg() {
 		double tgt = this.getOwnAvg();
 		boolean flag = false;
-		if (tgt == 0.0)
-			flag = true;
+		if(tgt == 0.0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -253,8 +231,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnAvg(1.1);
 		double tgt = this.getOwnAvg();
 		boolean flag = false;
-		if (tgt == 1.1)
-			flag = true;
+		if(tgt == 1.1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -262,8 +239,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnPointCnt() {
 		int tgt = this.getOwnPointCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -272,8 +248,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnPointCnt(1);
 		int tgt = this.getOwnPointCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -281,8 +256,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnEdgeCnt() {
 		int tgt = this.getOwnEdgeCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -291,8 +265,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnEdgeCnt(1);
 		int tgt = this.getOwnEdgeCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -300,8 +273,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnEdgeSideOneCnt() {
 		int tgt = this.getOwnEdgeSideOneCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -310,8 +282,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnEdgeSideOneCnt(1);
 		int tgt = this.getOwnEdgeSideOneCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -319,8 +290,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnEdgeSideTwoCnt() {
 		int tgt = this.getOwnEdgeSideTwoCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -329,8 +299,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnEdgeSideTwoCnt(1);
 		int tgt = this.getOwnEdgeSideTwoCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -338,8 +307,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnEdgeSideThreeCnt() {
 		int tgt = this.getOwnEdgeSideThreeCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -348,8 +316,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnEdgeSideThreeCnt(1);
 		int tgt = this.getOwnEdgeSideThreeCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -357,8 +324,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetOwnEdgeSideOtherCnt() {
 		int tgt = this.getOwnEdgeSideOtherCnt();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -367,8 +333,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setOwnEdgeSideOtherCnt(1);
 		int tgt = this.getOwnEdgeSideOtherCnt();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -376,8 +341,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetBadPoint() {
 		int tgt = this.getBadPoint();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -386,8 +350,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setBadPoint(1);
 		int tgt = this.getBadPoint();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -395,8 +358,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testGetGoodPoint() {
 		int tgt = this.getGoodPoint();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -405,8 +367,7 @@ class ReversiAnzTest extends ReversiAnz {
 		this.setGoodPoint(1);
 		int tgt = this.getGoodPoint();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -414,8 +375,7 @@ class ReversiAnzTest extends ReversiAnz {
 	void testReversiAnz() {
 		ReversiAnz tgt = new ReversiAnz();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -423,46 +383,26 @@ class ReversiAnzTest extends ReversiAnz {
 	void testReset() {
 		this.reset();
 		boolean flag = true;
-		if (this.getMin() != 0)
-			flag = false;
-		if (this.getMax() != 0)
-			flag = false;
-		if (this.getAvg() != 0.0)
-			flag = false;
-		if (this.getPointCnt() != 0)
-			flag = false;
-		if (this.getEdgeCnt() != 0)
-			flag = false;
-		if (this.getEdgeSideOneCnt() != 0)
-			flag = false;
-		if (this.getEdgeSideTwoCnt() != 0)
-			flag = false;
-		if (this.getEdgeSideThreeCnt() != 0)
-			flag = false;
-		if (this.getEdgeSideOtherCnt() != 0)
-			flag = false;
-		if (this.getOwnMin() != 0)
-			flag = false;
-		if (this.getOwnMax() != 0)
-			flag = false;
-		if (this.getOwnAvg() != 0.0)
-			flag = false;
-		if (this.getOwnPointCnt() != 0)
-			flag = false;
-		if (this.getOwnEdgeCnt() != 0)
-			flag = false;
-		if (this.getOwnEdgeSideOneCnt() != 0)
-			flag = false;
-		if (this.getOwnEdgeSideTwoCnt() != 0)
-			flag = false;
-		if (this.getOwnEdgeSideThreeCnt() != 0)
-			flag = false;
-		if (this.getOwnEdgeSideOtherCnt() != 0)
-			flag = false;
-		if (this.getBadPoint() != 0)
-			flag = false;
-		if (this.getGoodPoint() != 0)
-			flag = false;
+		if(this.getMin() != 0)						flag = false;
+		if(this.getMax() != 0)						flag = false;
+		if(this.getAvg() != 0.0)					flag = false;
+		if(this.getPointCnt() != 0)					flag = false;
+		if(this.getEdgeCnt() != 0)					flag = false;
+		if(this.getEdgeSideOneCnt() != 0)			flag = false;
+		if(this.getEdgeSideTwoCnt() != 0)			flag = false;
+		if(this.getEdgeSideThreeCnt() != 0)			flag = false;
+		if(this.getEdgeSideOtherCnt() != 0)			flag = false;
+		if(this.getOwnMin() != 0)					flag = false;
+		if(this.getOwnMax() != 0)					flag = false;
+		if(this.getOwnAvg() != 0.0)					flag = false;
+		if(this.getOwnPointCnt() != 0)				flag = false;
+		if(this.getOwnEdgeCnt() != 0)				flag = false;
+		if(this.getOwnEdgeSideOneCnt() != 0)		flag = false;
+		if(this.getOwnEdgeSideTwoCnt() != 0)		flag = false;
+		if(this.getOwnEdgeSideThreeCnt() != 0)		flag = false;
+		if(this.getOwnEdgeSideOtherCnt() != 0)		flag = false;
+		if(this.getBadPoint() != 0)					flag = false;
+		if(this.getGoodPoint() != 0)				flag = false;
 		assertTrue(flag);
 	}
 

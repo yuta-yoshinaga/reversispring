@@ -36,8 +36,7 @@ class CallbacksJsonTest extends CallbacksJson {
 	void testGetFuncs() {
 		ArrayList<FuncsJson> tgt = this.getFuncs();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -46,8 +45,7 @@ class CallbacksJsonTest extends CallbacksJson {
 		this.setFuncs(new ArrayList<FuncsJson>());
 		ArrayList<FuncsJson> tgt = this.getFuncs();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -55,8 +53,7 @@ class CallbacksJsonTest extends CallbacksJson {
 	void testCallbacksJson() {
 		CallbacksJson tgt = new CallbacksJson();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 

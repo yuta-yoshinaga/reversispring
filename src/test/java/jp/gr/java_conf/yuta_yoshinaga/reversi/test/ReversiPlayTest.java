@@ -35,176 +35,159 @@ import jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiSetting;
 ///	@brief		リバーシプレイテストクラス
 ///
 ////////////////////////////////////////////////////////////////////////////////
-class ReversiPlayTest extends ReversiPlay {
+class ReversiPlayTest extends ReversiPlay
+{
 
 	@Test
 	void testGetmReversi() {
-		Reversi tgt = this.getMReversi();
+		Reversi tgt = this.getmReversi();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmReversi() {
-		this.setMReversi(new Reversi());
-		Reversi tgt = this.getMReversi();
+		this.setmReversi(new Reversi());
+		Reversi tgt = this.getmReversi();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmSetting() {
-		ReversiSetting tgt = this.getMSetting();
+		ReversiSetting tgt = this.getmSetting();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmSetting() {
-		this.setMSetting(new ReversiSetting());
-		ReversiSetting tgt = this.getMSetting();
+		this.setmSetting(new ReversiSetting());
+		ReversiSetting tgt = this.getmSetting();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmCurColor() {
-		int tgt = this.getMCurColor();
+		int tgt = this.getmCurColor();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmCurColor() {
-		this.setMCurColor(ReversiConst.REVERSI_STS_WHITE);
-		int tgt = this.getMCurColor();
+		this.setmCurColor(ReversiConst.REVERSI_STS_WHITE);
+		int tgt = this.getmCurColor();
 		boolean flag = false;
-		if (tgt == ReversiConst.REVERSI_STS_WHITE)
-			flag = true;
+		if(tgt == ReversiConst.REVERSI_STS_WHITE)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmCpu() {
-		ReversiPoint[] tgt = this.getMCpu();
+		ReversiPoint[] tgt = this.getmCpu();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmCpu() {
-		this.setMCpu(new ReversiPoint[8 * 8]);
-		ReversiPoint[] tgt = this.getMCpu();
+		this.setmCpu(new ReversiPoint[8*8]);
+		ReversiPoint[] tgt = this.getmCpu();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmEdge() {
-		ReversiPoint[] tgt = this.getMCpu();
+		ReversiPoint[] tgt = this.getmEdge();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmEdge() {
-		this.setMCpu(new ReversiPoint[8 * 8]);
-		ReversiPoint[] tgt = this.getMCpu();
+		this.setmEdge(new ReversiPoint[8*8]);
+		ReversiPoint[] tgt = this.getmEdge();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmPassEnaB() {
-		int tgt = this.getMPassEnaB();
+		int tgt = this.getmPassEnaB();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmPassEnaB() {
-		this.setMPassEnaB(1);
-		int tgt = this.getMPassEnaB();
+		this.setmPassEnaB(1);
+		int tgt = this.getmPassEnaB();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmPassEnaW() {
-		int tgt = this.getMPassEnaB();
+		int tgt = this.getmPassEnaW();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmPassEnaW() {
-		this.setMPassEnaB(1);
-		int tgt = this.getMPassEnaB();
+		this.setmPassEnaW(1);
+		int tgt = this.getmPassEnaW();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmGameEndSts() {
-		int tgt = this.getMGameEndSts();
+		int tgt = this.getmGameEndSts();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmGameEndSts() {
-		this.setMGameEndSts(1);
-		int tgt = this.getMGameEndSts();
+		this.setmGameEndSts(1);
+		int tgt = this.getmGameEndSts();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmPlayLock() {
-		int tgt = this.getMPlayLock();
+		int tgt = this.getmPlayLock();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmPlayLock() {
-		this.setMPlayLock(1);
-		int tgt = this.getMPlayLock();
+		this.setmPlayLock(1);
+		int tgt = this.getmPlayLock();
 		boolean flag = false;
-		if (tgt == 1)
-			flag = true;
+		if(tgt == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -212,8 +195,7 @@ class ReversiPlayTest extends ReversiPlay {
 	void testGetR() {
 		Random tgt = this.getR();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -222,27 +204,24 @@ class ReversiPlayTest extends ReversiPlay {
 		this.setR(new Random());
 		Random tgt = this.getR();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testGetmDelegate() {
-		ReversiPlayDelegate tgt = this.getMDelegate();
+		ReversiPlayDelegate tgt = this.getmDelegate();
 		boolean flag = false;
-		if (tgt == null)
-			flag = true;
+		if(tgt == null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSetmDelegate() {
-		//		this.setmDelegate(new ReversiPlayDelegate());
-		ReversiPlayDelegate tgt = this.getMDelegate();
+//		this.setmDelegate(new ReversiPlayDelegate());
+		ReversiPlayDelegate tgt = this.getmDelegate();
 		boolean flag = false;
-		if (tgt == null)
-			flag = true;
+		if(tgt == null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -250,21 +229,20 @@ class ReversiPlayTest extends ReversiPlay {
 	void testReversiPlay() {
 		ReversiPlay tgt = new ReversiPlay();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testReversiPlay1() {
-		this.reversiPlay(0, 0);
+		this.reversiPlay(0,0);
 		boolean flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testReversiPlaySub() {
-		this.reversiPlaySub(0, 0);
+		this.reversiPlaySub(0,0);
 		boolean flag = true;
 		assertTrue(flag);
 	}
@@ -285,7 +263,7 @@ class ReversiPlayTest extends ReversiPlay {
 
 	@Test
 	void testReversiPlayCpu() {
-		this.reversiPlayCpu(ReversiConst.REVERSI_STS_BLACK, 0);
+		this.reversiPlayCpu(ReversiConst.REVERSI_STS_BLACK,0);
 		boolean flag = true;
 		assertTrue(flag);
 	}
@@ -320,14 +298,14 @@ class ReversiPlayTest extends ReversiPlay {
 
 	@Test
 	void testSendDrawMsg() {
-		this.sendDrawMsg(0, 0);
+		this.sendDrawMsg(0,0);
 		boolean flag = true;
 		assertTrue(flag);
 	}
 
 	@Test
 	void testSendDrawInfoMsg() {
-		this.sendDrawInfoMsg(0, 0);
+		this.sendDrawInfoMsg(0,0);
 		boolean flag = true;
 		assertTrue(flag);
 	}

@@ -33,8 +33,7 @@ class FuncsJsonTest extends FuncsJson {
 	void testGetFunc() {
 		String tgt = this.getFunc();
 		boolean flag = false;
-		if (tgt.isEmpty())
-			flag = true;
+		if(tgt.isEmpty())	flag = true;
 		assertTrue(flag);
 	}
 
@@ -43,8 +42,7 @@ class FuncsJsonTest extends FuncsJson {
 		this.setFunc("test");
 		String tgt = this.getFunc();
 		boolean flag = false;
-		if (tgt.equals("test"))
-			flag = true;
+		if(tgt.equals("test"))	flag = true;
 		assertTrue(flag);
 	}
 
@@ -52,8 +50,7 @@ class FuncsJsonTest extends FuncsJson {
 	void testGetParam1() {
 		String tgt = this.getParam1();
 		boolean flag = false;
-		if (tgt.isEmpty())
-			flag = true;
+		if(tgt.isEmpty())	flag = true;
 		assertTrue(flag);
 	}
 
@@ -62,8 +59,7 @@ class FuncsJsonTest extends FuncsJson {
 		this.setParam1("test");
 		String tgt = this.getParam1();
 		boolean flag = false;
-		if (tgt.equals("test"))
-			flag = true;
+		if(tgt.equals("test"))	flag = true;
 		assertTrue(flag);
 	}
 
@@ -71,8 +67,7 @@ class FuncsJsonTest extends FuncsJson {
 	void testGetParam2() {
 		String tgt = this.getParam2();
 		boolean flag = false;
-		if (tgt.isEmpty())
-			flag = true;
+		if(tgt.isEmpty())	flag = true;
 		assertTrue(flag);
 	}
 
@@ -81,8 +76,7 @@ class FuncsJsonTest extends FuncsJson {
 		this.setParam2("test");
 		String tgt = this.getParam2();
 		boolean flag = false;
-		if (tgt.equals("test"))
-			flag = true;
+		if(tgt.equals("test"))	flag = true;
 		assertTrue(flag);
 	}
 
@@ -90,8 +84,7 @@ class FuncsJsonTest extends FuncsJson {
 	void testGetParam3() {
 		String tgt = this.getParam3();
 		boolean flag = false;
-		if (tgt.isEmpty())
-			flag = true;
+		if(tgt.isEmpty())	flag = true;
 		assertTrue(flag);
 	}
 
@@ -100,8 +93,7 @@ class FuncsJsonTest extends FuncsJson {
 		this.setParam3("test");
 		String tgt = this.getParam3();
 		boolean flag = false;
-		if (tgt.equals("test"))
-			flag = true;
+		if(tgt.equals("test"))	flag = true;
 		assertTrue(flag);
 	}
 
@@ -109,8 +101,7 @@ class FuncsJsonTest extends FuncsJson {
 	void testGetParam4() {
 		String tgt = this.getParam4();
 		boolean flag = false;
-		if (tgt.isEmpty())
-			flag = true;
+		if(tgt.isEmpty())	flag = true;
 		assertTrue(flag);
 	}
 
@@ -119,8 +110,7 @@ class FuncsJsonTest extends FuncsJson {
 		this.setParam4("test");
 		String tgt = this.getParam4();
 		boolean flag = false;
-		if (tgt.equals("test"))
-			flag = true;
+		if(tgt.equals("test"))	flag = true;
 		assertTrue(flag);
 	}
 
@@ -128,8 +118,7 @@ class FuncsJsonTest extends FuncsJson {
 	void testGetParam5() {
 		String tgt = this.getParam5();
 		boolean flag = false;
-		if (tgt.isEmpty())
-			flag = true;
+		if(tgt.isEmpty())	flag = true;
 		assertTrue(flag);
 	}
 
@@ -138,8 +127,7 @@ class FuncsJsonTest extends FuncsJson {
 		this.setParam5("test");
 		String tgt = this.getParam5();
 		boolean flag = false;
-		if (tgt.equals("test"))
-			flag = true;
+		if(tgt.equals("test"))	flag = true;
 		assertTrue(flag);
 	}
 
@@ -147,8 +135,7 @@ class FuncsJsonTest extends FuncsJson {
 	void testFuncsJson() {
 		FuncsJson tgt = new FuncsJson();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 

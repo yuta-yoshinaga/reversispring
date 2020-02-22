@@ -34,8 +34,7 @@ class ResJsonTest extends ResJson {
 	void testGetAuth() {
 		String tgt = this.getAuth();
 		boolean flag = false;
-		if (tgt.isEmpty())
-			flag = true;
+		if(tgt.isEmpty())	flag = true;
 		assertTrue(flag);
 	}
 
@@ -44,8 +43,7 @@ class ResJsonTest extends ResJson {
 		this.setAuth("test");
 		String tgt = this.getAuth();
 		boolean flag = false;
-		if (tgt.equals("test"))
-			flag = true;
+		if(tgt.equals("test"))	flag = true;
 		assertTrue(flag);
 	}
 
@@ -53,8 +51,7 @@ class ResJsonTest extends ResJson {
 	void testGetCallbacks() {
 		CallbacksJson tgt = this.getCallbacks();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -63,8 +60,7 @@ class ResJsonTest extends ResJson {
 		this.setCallbacks(new CallbacksJson());
 		CallbacksJson tgt = this.getCallbacks();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -72,8 +68,7 @@ class ResJsonTest extends ResJson {
 	void testResJson() {
 		ResJson tgt = new ResJson();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 

@@ -24,8 +24,9 @@ import java.io.Serializable;
 ///	@brief		リバーシプレイデリゲート
 ///
 ////////////////////////////////////////////////////////////////////////////////
-public class ReversiPlayDelegate implements Serializable {
-	private final ReversiPlayInterface impl; //!< デリゲート
+public class ReversiPlayDelegate implements Serializable
+{
+	private final ReversiPlayInterface impl;					//!< デリゲート
 
 	////////////////////////////////////////////////////////////////////////////////
 	///	@brief			コンストラクタ
@@ -36,7 +37,8 @@ public class ReversiPlayDelegate implements Serializable {
 	///	@date			2018.04.01
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public ReversiPlayDelegate(ReversiPlayInterface i) {
+	public ReversiPlayDelegate(ReversiPlayInterface i)
+	{
 		this.impl = i;
 	}
 
@@ -50,8 +52,9 @@ public class ReversiPlayDelegate implements Serializable {
 	///	@date			2018.04.01
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public FuncsJson ViewMsgDlg(String title, String msg) {
-		return impl.ViewMsgDlg(title, msg);
+	public FuncsJson ViewMsgDlg(String title , String msg)
+	{
+		return impl.ViewMsgDlg(title , msg);
 	}
 
 	////////////////////////////////////////////////////////////////////////////////
@@ -67,7 +70,8 @@ public class ReversiPlayDelegate implements Serializable {
 	///	@date			2018.04.01
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public FuncsJson DrawSingle(int y, int x, int sts, int bk, String text) {
+	public FuncsJson DrawSingle(int y, int x, int sts, int bk, String text)
+	{
 		return impl.DrawSingle(y, x, sts, bk, text);
 	}
 
@@ -80,7 +84,8 @@ public class ReversiPlayDelegate implements Serializable {
 	///	@date			2018.04.01
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public FuncsJson CurColMsg(String text) {
+	public FuncsJson CurColMsg(String text)
+	{
 		return impl.CurColMsg(text);
 	}
 
@@ -93,7 +98,8 @@ public class ReversiPlayDelegate implements Serializable {
 	///	@date			2018.04.01
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public FuncsJson CurStsMsg(String text) {
+	public FuncsJson CurStsMsg(String text)
+	{
 		return impl.CurStsMsg(text);
 	}
 
@@ -106,7 +112,8 @@ public class ReversiPlayDelegate implements Serializable {
 	///	@date			2018.04.01
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public FuncsJson Wait(int time) {
+	public FuncsJson Wait(int time)
+	{
 		return impl.Wait(time);
 	}
 }

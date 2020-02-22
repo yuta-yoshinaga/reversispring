@@ -19,17 +19,65 @@ package jp.gr.java_conf.yuta_yoshinaga.reversi.model;
 
 import java.io.Serializable;
 
-import lombok.Data;
-
-@Data
 ////////////////////////////////////////////////////////////////////////////////
 ///	@class		ReversiHistory
 ///	@brief		リバーシ履歴クラス
 ///
 ////////////////////////////////////////////////////////////////////////////////
-public class ReversiHistory implements Serializable {
-	private ReversiPoint point; //!< リバーシポイント
-	private int color; //!< カラー
+public class ReversiHistory implements Serializable
+{
+	private ReversiPoint point;									//!< リバーシポイント
+	private int color;											//!< カラー
+
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			ゲッター
+	///	@fn				ReversiPoint getPoint()
+	///	@return			ReversiPoint point
+	///	@author			Yuta Yoshinaga
+	///	@date			2018.04.01
+	///
+	////////////////////////////////////////////////////////////////////////////////
+	public ReversiPoint getPoint() {
+		return point;
+	}
+
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			セッター
+	///	@fn				void setPoint(ReversiPoint point)
+	///	@param[in]		ReversiPoint point
+	///	@return			ありません
+	///	@author			Yuta Yoshinaga
+	///	@date			2018.04.01
+	///
+	////////////////////////////////////////////////////////////////////////////////
+	public void setPoint(ReversiPoint point) {
+		this.point = point;
+	}
+
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			ゲッター
+	///	@fn				int getColor()
+	///	@return			int color
+	///	@author			Yuta Yoshinaga
+	///	@date			2018.04.01
+	///
+	////////////////////////////////////////////////////////////////////////////////
+	public int getColor() {
+		return color;
+	}
+
+	////////////////////////////////////////////////////////////////////////////////
+	///	@brief			セッター
+	///	@fn				void setColor(int color)
+	///	@param[in]		int color
+	///	@return			ありません
+	///	@author			Yuta Yoshinaga
+	///	@date			2018.04.01
+	///
+	////////////////////////////////////////////////////////////////////////////////
+	public void setColor(int color) {
+		this.color = color;
+	}
 
 	////////////////////////////////////////////////////////////////////////////////
 	///	@brief			コンストラクタ
@@ -39,7 +87,7 @@ public class ReversiHistory implements Serializable {
 	///	@date			2014.07.23
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public ReversiHistory() {
+	public ReversiHistory(){
 		this.point = new ReversiPoint();
 		this.reset();
 	}
@@ -52,9 +100,10 @@ public class ReversiHistory implements Serializable {
 	///	@date			2014.07.23
 	///
 	////////////////////////////////////////////////////////////////////////////////
-	public void reset() {
+	public void reset(){
 		this.point.setX(-1);
 		this.point.setY(-1);
 		this.color = -1;
 	}
 }
+

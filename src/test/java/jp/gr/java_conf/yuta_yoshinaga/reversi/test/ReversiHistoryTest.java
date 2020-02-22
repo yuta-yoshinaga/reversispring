@@ -29,14 +29,14 @@ import jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiPoint;
 ///	@brief		リバーシ履歴テストクラス
 ///
 ////////////////////////////////////////////////////////////////////////////////
-class ReversiHistoryTest extends ReversiHistory {
+class ReversiHistoryTest extends ReversiHistory
+{
 
 	@Test
 	void testGetPoint() {
 		ReversiPoint tgt = this.getPoint();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -45,8 +45,7 @@ class ReversiHistoryTest extends ReversiHistory {
 		this.setPoint(new ReversiPoint());
 		ReversiPoint tgt = this.getPoint();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -54,8 +53,7 @@ class ReversiHistoryTest extends ReversiHistory {
 	void testGetColor() {
 		int tgt = this.getColor();
 		boolean flag = false;
-		if (tgt == -1)
-			flag = true;
+		if(tgt == -1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -64,8 +62,7 @@ class ReversiHistoryTest extends ReversiHistory {
 		this.setColor(0);
 		int tgt = this.getColor();
 		boolean flag = false;
-		if (tgt == 0)
-			flag = true;
+		if(tgt == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -73,8 +70,7 @@ class ReversiHistoryTest extends ReversiHistory {
 	void testReversiHistory() {
 		ReversiHistory tgt = new ReversiHistory();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -83,14 +79,10 @@ class ReversiHistoryTest extends ReversiHistory {
 		this.reset();
 		ReversiPoint tgt = this.getPoint();
 		boolean flag = true;
-		if (tgt == null)
-			flag = false;
-		if (tgt.getX() != -1)
-			flag = false;
-		if (tgt.getY() != -1)
-			flag = false;
-		if (this.getColor() != -1)
-			flag = false;
+		if(tgt == null)			flag = false;
+		if(tgt.getX() != -1)		flag = false;
+		if(tgt.getY() != -1)		flag = false;
+		if(this.getColor() != -1)	flag = false;
 		assertTrue(flag);
 	}
 

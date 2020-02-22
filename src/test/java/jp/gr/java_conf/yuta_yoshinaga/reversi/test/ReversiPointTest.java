@@ -28,14 +28,14 @@ import jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiPoint;
 ///	@brief		リバーシポイントテストクラス
 ///
 ////////////////////////////////////////////////////////////////////////////////
-class ReversiPointTest extends ReversiPoint {
+class ReversiPointTest extends ReversiPoint
+{
 
 	@Test
 	void testGetX() {
 		int x = this.getX();
 		boolean flag = false;
-		if (x == 0)
-			flag = true;
+		if(x == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -44,8 +44,7 @@ class ReversiPointTest extends ReversiPoint {
 		this.setX(1);
 		int x = this.getX();
 		boolean flag = false;
-		if (x == 1)
-			flag = true;
+		if(x == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -53,8 +52,7 @@ class ReversiPointTest extends ReversiPoint {
 	void testGetY() {
 		int y = this.getY();
 		boolean flag = false;
-		if (y == 0)
-			flag = true;
+		if(y == 0)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -63,8 +61,7 @@ class ReversiPointTest extends ReversiPoint {
 		this.setY(1);
 		int y = this.getY();
 		boolean flag = false;
-		if (y == 1)
-			flag = true;
+		if(y == 1)	flag = true;
 		assertTrue(flag);
 	}
 
@@ -72,8 +69,7 @@ class ReversiPointTest extends ReversiPoint {
 	void testReversiPoint() {
 		ReversiPoint tgt = new ReversiPoint();
 		boolean flag = false;
-		if (tgt != null)
-			flag = true;
+		if(tgt != null)	flag = true;
 		assertTrue(flag);
 	}
 
