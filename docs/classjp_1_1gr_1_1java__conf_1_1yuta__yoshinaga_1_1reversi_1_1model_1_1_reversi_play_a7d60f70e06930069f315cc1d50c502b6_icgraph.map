@@ -1,0 +1,6 @@
+<map id="jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiPlay.setmCallbacks" name="jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiPlay.setmCallbacks">
+<area shape="rect" id="node2" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#ae0b09a6cc58c14296aaed1cf50ab1087" title="リバーシプレイインスタンス取得 " alt="" coords="268,85,459,141"/>
+<area shape="rect" id="node3" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#a7f9b86ce3c02d16c8bb08adbcfda6957" title="リバーシリセット " alt="" coords="507,5,697,61"/>
+<area shape="rect" id="node4" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#a3c9b089c78395e6a87cf873816a2f50d" title="リバーシプレイ " alt="" coords="507,85,697,141"/>
+<area shape="rect" id="node5" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#aad191800cbf367f237bf6160037255e8" title="リバーシ設定反映 " alt="" coords="507,165,697,221"/>
+</map>

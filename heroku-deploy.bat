@@ -1,0 +1,1 @@
+heroku deploy:war --war target/reversispring-0.0.1-SNAPSHOT.war --app reversispring

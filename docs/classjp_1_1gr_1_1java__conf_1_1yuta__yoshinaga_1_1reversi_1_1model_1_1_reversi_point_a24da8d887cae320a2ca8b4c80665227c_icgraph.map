@@ -1,0 +1,26 @@
+<map id="jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiPoint.setX" name="jp.gr.java_conf.yuta_yoshinaga.reversi.model.ReversiPoint.setX">
+<area shape="rect" id="node2" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#a9929ed36140ddc25923ede99f86564c3" title="各コマの置ける場所等のステータス作成 " alt="" coords="268,160,519,216"/>
+<area shape="rect" id="node11" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#a1b1b5c91163c374bc2e0bf23ff922617" title="リバーシプレイコンピューター " alt="" coords="1145,393,1360,449"/>
+<area shape="rect" id="node18" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#a7abf9238b933653eec2908f6e1a863db" title="指定座標にコマを置く " alt="" coords="861,328,1097,384"/>
+<area shape="rect" id="node19" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_history.html#aee0155159a017671c2b18c1d8229d8d1" title="リセット " alt="" coords="286,596,501,652"/>
+<area shape="rect" id="node21" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#a866c2788aa9dd7eb2084da9fc5e5bd5c" title="情報描画メッセージ送信 " alt="" coords="286,459,501,515"/>
+<area shape="rect" id="node23" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#a93ebdb5fb7097984730a85f62ebb57d7" title="描画メッセージ送信 " alt="" coords="583,524,797,580"/>
+<area shape="rect" id="node3" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#a43098c043d0424bb5e5e60db358a324d" title="解析を行う " alt="" coords="870,37,1089,93"/>
+<area shape="rect" id="node13" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#adb74246f49150e02201766a1fa6cf732" title="解析を行う(黒) " alt="" coords="581,43,799,99"/>
+<area shape="rect" id="node14" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#a519adbc5ec3bf5433fdb79bf8049cc75" title="解析を行う(白) " alt="" coords="581,123,799,179"/>
+<area shape="rect" id="node15" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#a497552844cbae36207f2d8c836a26b8e" title="リセット " alt="" coords="567,203,813,245"/>
+<area shape="rect" id="node4" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#a040fddf6e59c00de4c9c2ecdaedcb574" title="リセット処理 " alt="" coords="1145,103,1360,159"/>
+<area shape="rect" id="node8" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#ac2fb56755f7f7d7ab0675035e8581ab1" title="リバーシプレイ " alt="" coords="1671,492,1885,548"/>
+<area shape="rect" id="node5" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1service_1_1_reversi_service.html#ab2c1202edeb6a169bac4c65accc31165" title="リバーシリセット " alt="" coords="1427,183,1604,239"/>
+<area shape="rect" id="node7" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1service_1_1_reversi_service.html#a58b49b782275a456cd4ae6ed332446e3" title="リバーシ設定反映 " alt="" coords="1427,103,1604,159"/>
+<area shape="rect" id="node6" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#a7f9b86ce3c02d16c8bb08adbcfda6957" title="リバーシリセット " alt="" coords="1683,183,1873,239"/>
+<area shape="rect" id="node9" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1service_1_1_reversi_service.html#a63e6f016d6aa03217b96782f0a8adc52" title="リバーシプレイ " alt="" coords="1933,492,2111,548"/>
+<area shape="rect" id="node10" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#a3c9b089c78395e6a87cf873816a2f50d" title="リバーシプレイ " alt="" coords="2159,492,2349,548"/>
+<area shape="rect" id="node12" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#a6ea2a343ad2fb3ef1317570e87c3fc4f" title="リバーシプレイサブ " alt="" coords="1408,524,1623,580"/>
+<area shape="rect" id="node16" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#a22abbc9c1a2016388dafb08dc9a7b820" title="コンストラクタ " alt="" coords="870,168,1089,224"/>
+<area shape="rect" id="node17" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi.html#a0e9bc15d570635cf024287fbf541b4b9" title="マスの数変更 " alt="" coords="861,248,1097,304"/>
+<area shape="rect" id="node20" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_history.html#abd0f556489e10b58555304449c6c2682" title="コンストラクタ " alt="" coords="583,604,797,660"/>
+<area shape="rect" id="node22" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#a0522dfef43ea5a95aaa2086c22fcefe0" title="マス描画更新 " alt="" coords="872,459,1087,515"/>
+<area shape="rect" id="node24" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#aaf0f07bdc219b6d8ec5551457fb551ab" title="ゲーム終了アニメーション " alt="" coords="872,589,1087,645"/>
+<area shape="rect" id="node25" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1model_1_1_reversi_play.html#abd208c350d3713ef6872faaa813ac8c3" title="リバーシプレイ終了 " alt="" coords="1145,589,1360,645"/>
+</map>

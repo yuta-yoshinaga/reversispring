@@ -1,0 +1,7 @@
+<map id="jp.gr.java_conf.yuta_yoshinaga.reversi.model.FuncsJson.setParam1" name="jp.gr.java_conf.yuta_yoshinaga.reversi.model.FuncsJson.setParam1">
+<area shape="rect" id="node2" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#aa4c4d8fe61727c848170cff7120e82db" title="現在の色メッセージ " alt="" coords="263,5,454,61"/>
+<area shape="rect" id="node3" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#a54cfbfa89d25bb2db441473ba53a5140" title="現在のステータスメッセージ " alt="" coords="263,85,454,141"/>
+<area shape="rect" id="node4" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#a2303f5dc844932ae026ec80d6323f726" title="1マス描画 " alt="" coords="263,165,454,221"/>
+<area shape="rect" id="node5" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#ac3cff78c16b0190fd744317a8c1a07d6" title="メッセージダイアログ " alt="" coords="261,245,456,301"/>
+<area shape="rect" id="node6" href="$classjp_1_1gr_1_1java__conf_1_1yuta__yoshinaga_1_1reversi_1_1controller_1_1_reversi_controller.html#a4f290c6bccc40ff5239ef8047bb644d8" title="ウェイト " alt="" coords="263,325,454,381"/>
+</map>
