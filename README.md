@@ -15,7 +15,7 @@ cd reversispring
 
 ### Deploy
 ![herokubutton](https://www.herokucdn.com/deploy/button.svg)  
-[Heroku](https://reversijava.herokuapp.com/)<br>
+[Heroku](https://reversispring.herokuapp.com/)<br>
 [API Document](https://yuta-yoshinaga.github.io/reversispring/)
 
 ## Future Releases
