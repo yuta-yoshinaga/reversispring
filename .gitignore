@@ -29,3 +29,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### doxygen ###
+/Doxygen/html/
+/Doxygen/latex/
